@@ -15,6 +15,7 @@ def receive_msg(udp_socket):
     ip = rec_msg[1]
     print("从ip是：%s接受到的信息为：%s"%(ip, msg))
 
+#这是个注释 查看git情况
 
 def main():
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
